@@ -1,30 +1,48 @@
-# TRANSPORTADORA-BACKEND
+# Transportation Data Management
 
-Este projeto é um sistema back-end desenvolvido com Java, Spring Boot, Hibernate, Lombok e PostgreSQL. O objetivo deste projeto é fornecer uma plataforma robusta e confiável para o gerenciamento de dados de uma empresa. O sistema foi desenvolvido utilizando as tecnologias mencionadas para garantir alta performance, segurança e facilidade de manutenção.
+This is a backend system developed with Java, Spring Boot, Hibernate, Lombok and PostgreSQL. The goal of this project is to provide a robust and reliable platform for managing company data. The system was developed using the mentioned technologies to ensure high performance, security and ease of maintenance.
 
-O sistema possui diversas funcionalidades, como o cadastro, edição, listagem, detalhamento e exclusão de entidades, bem como o gerenciamento de relacionamentos entre essas entidades. Ele também possui integrações com outros sistemas e serviços externos, o que amplia ainda mais suas possibilidades de uso.
+The system has various functionalities such as registering, editing, listing, detailing and deleting entities, as well as managing relationships between these entities. It also has integrations with other systems and external services, which further expands its possibilities of use.
 
-O projeto foi desenvolvido seguindo as boas práticas de programação e está estruturado de forma a facilitar a manutenção e o aprimoramento das funcionalidades. Além disso, foi utilizado o framework Spring Boot, que possui uma série de ferramentas e recursos que tornam o desenvolvimento mais rápido e eficiente.
+The project was developed following best programming practices and is structured in a way that makes maintenance and improvement of functionalities easier. In addition, the Spring Boot framework was used, which has a series of tools and resources that make development faster and more efficient.
 
-O Hibernate foi utilizado como ORM (Object-Relational Mapping) para facilitar o acesso aos dados armazenados no banco de dados PostgreSQL. O Lombok, por sua vez, foi utilizado para minimizar a quantidade de código necessário para implementar as funcionalidades do sistema.
+Hibernate was used as the ORM (Object-Relational Mapping) to facilitate access to data stored in the PostgreSQL database. Lombok, in turn, was used to minimize the amount of code required to implement the system's functionalities.
 
-Em resumo, este projeto é uma plataforma completa e confiável para o gerenciamento de dados de uma empresa, desenvolvida com tecnologias de ponta e seguindo as melhores práticas de programação.
+In summary, this project is a complete and reliable platform for managing company data, developed with cutting-edge technologies and following best programming practices.
 
+## Getting Started
 
-## 🤝 Contribuição
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Projeto aberto para ajuda!
+### Prerequisites
 
-Lembre de seguir os requisitos da licensa...
+- Java 8 or later
+- Spring Boot
+- Hibernate
+- Lombok
+- PostgreSQL
 
-## 🔖 Licensa
-[![LICENSA](https://img.shields.io/badge/Custom_GPL_3.0-E58080?style=for-the-badge&logo=bookstack&logoColor=white)](/LICENSE)
+### Installing
 
-## 💰 Donate
-PIX: a4eabcdd-1899-48cc-b751-bfd8bb92e96e (chave aleatoria)
+1. Clone the repository:
+```bash
+git clone https://github.com/guifranchin/transportation-data-management.git
+```
+2. Import the project into your preferred IDE
+3. Set up the database connection in the application.properties file
+4. Run the project
 
-<p align="center">Copyright © 2022 Guilherme Franchin</p>
-=======
+## Built With
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* [Java](https://www.java.com/) - The programming language used
+* [Spring Boot](https://spring.io/projects/spring-boot) - The web framework used
+* [Hibernate](http://hibernate.org/) - ORM framework
+* [Lombok](https://projectlombok.org/) - Used to reduce boilerplate code
+* [PostgreSQL](https://www.postgresql.org/) - The database used
+
+## Authors
+
+* **Guilherme Franchin** - *Initial work* - [guifranchin](https://github.com/guifranchin)
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
